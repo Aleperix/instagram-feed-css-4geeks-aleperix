@@ -1,9 +1,15 @@
 * {
+    margin: auto;
 	border: 1px dashed red;
 	min-height: 10px;
     font-family: 'Roboto', sans-serif;
 }
-body{
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.container{
     background-color: gray;
 }
 .post {
@@ -12,6 +18,9 @@ body{
 	height: 100%;
 	margin: auto;
     margin-bottom: 3%;
+}
+.post:first-of-type{
+    margin-top: 3%;
 }
 .post-header{
     display: flex;
