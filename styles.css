@@ -1,0 +1,42 @@
+* {
+	border: 1px dashed red;
+	min-height: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: gray;
+}
+.post {
+	background: white;
+	width: 400px;
+	height: 100%;
+	margin: auto;
+    margin-bottom: 3%;
+}
+.post-header{
+    display: flex;
+    margin: 7px;
+    justify-content: space-between;
+}
+.post-header h1{
+    margin-top: 0;
+}
+.post-header div{
+    margin: 2px;
+}
+#post-publisher{
+    width: -webkit-fill-available;
+}
+#post-date{
+    color: lightslategray;
+}
+.post-body img{
+    width: 100%;
+    height: 300px;
+}
+.post-footer{
+    margin: 7px;
+}
+.post-bottom i{
+    margin: 2px;
+}
